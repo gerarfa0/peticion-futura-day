@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Petición formal para la supresión del Futura Day — Futura Schools, sede Casuarinas</title>
+<meta name="description" content="Petición formal de la comunidad educativa de Futura Schools, sede Casuarinas, para la supresión del Futura Day. Cierra el 20 de noviembre de 2026.">
+<style>
+  :root{
+    --ink:#16202c; --navy:#10233f; --gold:#8a6d3b; --rule:#d8d2c6;
+    --paper:#fcfbf8; --muted:#5f6874; --soft:#f1eee7;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;padding:26px 14px;background:#eceae4;font-family:Inter,-apple-system,Segoe UI,Roboto,sans-serif;color:#16202c;font-size:15px;line-height:1.65}
+  #fs-root{max-width:700px;margin:0 auto}
+  .sheet{background:var(--paper);border:1px solid var(--rule);padding:34px 38px 30px;border-radius:2px}
+  .masthead{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;padding-bottom:14px;border-bottom:2px solid var(--navy)}
+  .masthead .org{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--navy);font-weight:600;line-height:1.7}
+  .masthead .org span{display:block;font-weight:400;letter-spacing:.06em;color:var(--muted);text-transform:none;font-size:11px}
+  .filebox{border:1px solid var(--navy);padding:7px 11px;font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--navy);text-align:center;min-width:150px;line-height:1.6}
+  .filebox b{display:block;font-size:11.5px;letter-spacing:.05em}
+  h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:27px;line-height:1.28;color:var(--navy);margin:26px 0 10px}
+  .subtitle{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+  .addressee{border-left:3px solid var(--gold);padding:2px 0 2px 14px;margin:0 0 22px;font-size:13.5px}
+  .addressee em{display:block;font-style:normal;font-size:10.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+  h2{font-family:Georgia,serif;font-weight:400;font-size:13px;letter-spacing:.13em;text-transform:uppercase;color:var(--navy);margin:26px 0 12px;padding-bottom:5px;border-bottom:1px solid var(--rule)}
+  p{margin:0 0 12px;text-align:justify}
+  ol.motives{list-style:none;counter-reset:m;margin:0;padding:0}
+  ol.motives li{counter-increment:m;position:relative;padding-left:34px;margin-bottom:11px;text-align:justify;font-size:14.5px}
+  ol.motives li::before{content:counter(m,upper-roman) ".";position:absolute;left:0;top:0;font-family:Georgia,serif;font-size:12px;color:var(--gold);width:26px}
+  ol.ask{list-style:none;counter-reset:a;margin:0;padding:0}
+  ol.ask li{counter-increment:a;position:relative;padding-left:82px;margin-bottom:10px;text-align:justify;font-size:14.5px}
+  ol.ask li::before{content:"Art. " counter(a);position:absolute;left:0;top:1px;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--gold)}
+  .signoff{margin-top:20px;font-size:14px}
+  .signoff .place{margin-top:26px;font-size:13px;color:var(--muted)}
+  .bar{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;border:1px solid var(--rule);background:var(--soft);padding:12px 14px;margin:26px 0 0}
+  .counter{font-family:Georgia,serif;font-size:22px;color:var(--navy);line-height:1}
+  .counter small{display:block;font-family:Inter,sans-serif;font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+  .track{flex:1;min-width:140px;height:5px;background:#ded8cc}
+  .track i{display:block;height:100%;background:var(--navy);width:0}
+  .status{font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:right}
+  .status b{display:block;color:var(--navy)}
+  .dot{display:inline-block;width:6px;height:6px;border-radius:50%;background:#2f7a4d;margin-right:5px;vertical-align:1px}
+  .dot.off{background:#a8452f}
+  .form{padding:20px 0 4px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  label{display:block;font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:5px}
+  input,select,textarea{width:100%;font-family:inherit;font-size:14px;color:var(--ink);background:#fff;border:1px solid var(--rule);padding:9px 10px;border-radius:1px}
+  input:focus,select:focus,textarea:focus{outline:2px solid #b9c6d8;outline-offset:-1px}
+  textarea{resize:vertical;min-height:66px}
+  .field{margin-bottom:14px}
+  .check{display:flex;gap:9px;align-items:flex-start;font-size:12.5px;color:var(--muted);margin:4px 0 16px}
+  .check input{width:auto;margin-top:2px}
+  .btn{font-family:inherit;font-size:12px;letter-spacing:.11em;text-transform:uppercase;padding:11px 20px;border:1px solid var(--navy);background:var(--navy);color:#fff;cursor:pointer;border-radius:1px}
+  .btn:hover{background:#1b3457}
+  .btn.ghost{background:transparent;color:var(--navy)}
+  .btn.ghost:hover{background:#eae6dd}
+  .btn:disabled{opacity:.45;cursor:not-allowed}
+  .btn.sm{padding:7px 12px;font-size:10.5px;letter-spacing:.08em}
+  .err{color:#a8452f;font-size:12px;margin-top:8px;min-height:16px}
+  .constancia{border:1px solid var(--navy);padding:18px 20px;margin:6px 0 4px;background:#fff}
+  .constancia h3{font-family:Georgia,serif;font-weight:400;font-size:16px;margin:0 0 6px;color:var(--navy)}
+  .constancia p{font-size:13px;margin:0 0 8px;text-align:left}
+  .constancia code{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;background:var(--soft);padding:2px 6px}
+  .sigs{margin:0;padding:0;list-style:none}
+  .sigs li{display:flex;gap:12px;padding:10px 0;border-bottom:1px dotted var(--rule);font-size:13.5px}
+  .sigs .num{font-family:Georgia,serif;font-size:11.5px;color:var(--gold);min-width:26px;padding-top:2px}
+  .sigs .who{flex:1}
+  .sigs .who strong{font-weight:500}
+  .sigs .meta{font-size:11px;color:var(--muted);letter-spacing:.03em}
+  .sigs .comment{margin:6px 0 0;padding-left:11px;border-left:2px solid var(--rule);font-size:12.5px;color:#3d4753;font-style:italic}
+  .empty{font-size:13px;color:var(--muted);padding:14px 0}
+  .foot{margin-top:28px;padding-top:14px;border-top:1px solid var(--rule);font-size:11px;color:var(--muted);line-height:1.7}
+  .foot b{color:var(--ink);font-weight:500}
+  .banner{border:1px solid #c9b98f;background:#faf5e8;padding:11px 14px;font-size:12.5px;margin-bottom:18px}
+  .banner b{display:block;font-size:11px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px}
+  .admin{border:1px dashed var(--navy);padding:16px 18px;margin-top:24px;background:#fff}
+  .admin h3{font-family:Georgia,serif;font-weight:400;font-size:15px;margin:0 0 4px;color:var(--navy)}
+  .admin p{font-size:12px;text-align:left;color:var(--muted)}
+  .admin .grid{grid-template-columns:1fr}
+  .admin textarea{font-family:ui-monospace,Menlo,monospace;font-size:11px;min-height:90px}
+  .admin .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+  .note{font-size:11.5px;color:var(--muted);margin-top:8px}
+  @media(max-width:560px){
+    .sheet{padding:24px 20px}
+    .grid{grid-template-columns:1fr}
+    .masthead{flex-direction:column}
+    .filebox{min-width:0;width:100%}
+    h1{font-size:22px}
+    ol.ask li{padding-left:0;padding-top:18px}
+    ol.ask li::before{top:0}
+  }
+  @media print{
+    body{background:#fff;padding:0}
+    .no-print{display:none !important}
+    .sheet{border:none;padding:0}
+    .sigs li{page-break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+<div id="fs-root">
+<div class="sheet">
+
+  <div class="masthead">
+    <div class="org">Futura Schools<span>Sede Casuarinas · Piura, Perú</span></div>
+    <div class="filebox">Expediente<b>N.º 001-FS-CAS/2026</b>Folios: <span id="folio">000</span></div>
+  </div>
+
+  <h1>Petición formal para la supresión del Futura Day como actividad obligatoria y calificada</h1>
+  <div class="subtitle">Iniciativa de la comunidad educativa</div>
+
+  <div class="addressee">
+    <em>Dirigida a</em>
+    Dirección General de Futura Schools, sede Casuarinas
+  </div>
+
+  <p>Ilustre Dirección:</p>
+  <p>Los abajo firmantes, integrantes de la comunidad educativa de Futura Schools, sede Casuarinas, en ejercicio del derecho de petición que asiste a estudiantes, familias y docentes, comparecemos ante usted y exponemos respetuosamente lo siguiente.</p>
+
+  <h2>I. Exposición de motivos</h2>
+  <ol class="motives">
+    <li>Que el Futura Day concentra en una única jornada pública la evaluación correspondiente a un periodo completo, de modo que el resultado de cada estudiante queda determinado por su desempeño en un solo producto, expuesto ante público y en condiciones ajenas a las de la evaluación ordinaria.</li>
+    <li>Que la preparación del Futura Day exige, durante las semanas previas, un volumen de trabajo complementario que desplaza el estudio regular de las asignaturas y reduce el tiempo disponible para consolidar los aprendizajes que el propio periodo evalúa.</li>
+    <li>Que buena parte de ese trabajo se ejecuta fuera del horario lectivo, sin reconocimiento alguno en la carga académica del estudiante ni en la jornada del docente.</li>
+    <li>Que la calificación del Futura Day se rige por rúbricas que se entregan al estudiante con posterioridad al inicio de la preparación, o que no se entregan, lo que impide orientar el esfuerzo hacia criterios conocidos de antemano.</li>
+    <li>Que las condiciones de ejecución no son homogéneas entre secciones, pues dependen de la disposición de espacios, de los recursos disponibles y del número de integrantes de cada grupo.</li>
+    <li>Que los materiales, el vestuario y los traslados que el evento demanda recaen, en la mayoría de los casos, sobre las familias, sin que exista una lista de requerimientos publicada con la anticipación suficiente.</li>
+    <li>Que la jornada inmediatamente posterior al Futura Day se destina a la recuperación del orden regular, con pérdida de clases efectivas.</li>
+    <li>Que la continuidad del Futura Day se decide cada año sin consulta previa a la comunidad educativa, de modo que ni estudiantes, ni familias, ni docentes intervienen en la determinación de una actividad que los afecta directamente y cuya carga soportan.</li>
+    <li>Que la exigencia del evento no se agota en la jornada escolar, sino que se extiende a las tardes, a los fines de semana y a los periodos de descanso, hasta suprimir de hecho el tiempo libre del estudiante fuera del colegio, el cual constituye el margen ordinario para el estudio personal, el descanso y la vida familiar.</li>
+  </ol>
+
+  <h2>II. Petición</h2>
+  <p>Por las consideraciones expuestas, los abajo firmantes solicitan respetuosamente a la Dirección de Futura Schools, sede Casuarinas:</p>
+  <ol class="ask">
+    <li>La supresión definitiva del Futura Day como actividad obligatoria y con efecto en la calificación del periodo, sin que su permanencia quede condicionada a la corrección del formato vigente.</li>
+    <li>Que, de mantenerse, se le despoje de efecto calificatorio y se limite a una jornada de exhibición sin preparación previa obligatoria.</li>
+    <li>Que toda actividad de esta naturaleza sea sometida a votación de la comunidad educativa al inicio del año lectivo y se ejecute únicamente mediando aprobación mayoritaria.</li>
+    <li>Que la preparación y la ejecución del evento se ciñan estrictamente a los límites de la jornada académica, sin trasladar trabajo al tiempo libre del estudiante fuera del colegio.</li>
+    <li>Que la presente petición sea puesta en conocimiento del Consejo Académico y respondida por escrito dentro de los diez días hábiles siguientes al cierre del registro de firmas.</li>
+  </ol>
+
+  <div class="signoff">
+    <p>Para mayor constancia, se consigna el registro de firmas que obra en la sección IV del presente expediente, con indicación de nombre, grado o sección y rol del firmante.</p>
+    <div class="place">Piura, 17 de noviembre de 2026</div>
+  </div>
+
+  <div class="bar no-print">
+    <div class="counter"><span id="count">0</span><small>firmas registradas</small></div>
+    <div class="track"><i id="prog"></i></div>
+    <div class="status"><b id="pct">0 % de 300</b><span id="conn"><span class="dot off"></span>sin conexión</span></div>
+  </div>
+
+  <h2 class="no-print">III. Registro de firma</h2>
+
+  <div id="banner"></div>
+  <div id="formZone" class="form no-print"></div>
+
+  <h2>IV. Firmantes</h2>
+  <ul class="sigs" id="list"></ul>
+
+  <div class="foot">
+    <p><b>Plazo de suscripción.</b> La presente petición permanecerá abierta hasta el <b>20 de noviembre de 2026, a las 23:59 horas</b>, tras lo cual será impresa en orden correlativo y entregada en Mesa de Partes de la Dirección.</p>
+    <p><b>Tratamiento de datos.</b> Los datos consignados se emplean exclusivamente para acreditar la firma ante la Dirección. El correo electrónico no se publica en el listado. La iniciativa es de carácter académico y no se adscribe a agrupación política alguna.</p>
+    <p><b>Última actualización:</b> <span id="upd">—</span> · <a href="#" id="printLink" style="color:var(--navy)">Versión imprimible</a> · <a href="#admin" id="adminLink" style="color:var(--navy)">Panel de administración</a></p>
+  </div>
+
+</div>
+
+<section class="admin no-print" id="admin" style="display:none">
+  <h3>Panel de administración</h3>
+  <p>El enlace compartido debe contener el identificador del expediente. Quien abra la página sin ese identificador verá el registro en modo local.</p>
+
+  <div class="grid">
+    <div class="field">
+      <label>Identificador o URL del expediente</label>
+      <input id="inId" placeholder="p. ej. 8f2c1a9d4b76 o la URL completa">
+    </div>
+    <div class="field">
+      <label>Clave de API del servicio de almacenamiento (solo para crear uno nuevo)</label>
+      <input id="inKey" placeholder="opcional">
+    </div>
+  </div>
+
+  <div class="row">
+    <button class="btn sm" id="btnCreate">Crear expediente en línea</button>
+    <button class="btn sm ghost" id="btnSave">Guardar identificador</button>
+    <button class="btn sm ghost" id="btnSync">Sincronizar</button>
+  </div>
+
+  <div class="note" id="adminMsg"></div>
+
+  <div class="field" style="margin-top:16px">
+    <label>Enlace para compartir</label>
+    <input id="shareUrl" readonly>
+  </div>
+
+  <div class="row">
+    <button class="btn sm ghost" id="btnCopy">Copiar enlace</button>
+    <button class="btn sm ghost" id="btnCsv">Exportar CSV</button>
+  </div>
+
+  <div class="field" style="margin-top:16px">
+    <label>Importar firmas (JSON) o copia de seguridad</label>
+    <textarea id="inJson" placeholder='[{"n":"Nombre","c":"3.º B","r":"Estudiante","m":"","t":"2026-11-17T10:00:00Z"}]'></textarea>
+  </div>
+  <div class="row">
+    <button class="btn sm ghost" id="btnImport">Importar</button>
+    <button class="btn sm ghost" id="btnBackup">Ver copia de seguridad</button>
+  </div>
+</section>
+</div>
+
+<script>
+(function(){
+  const API = 'https://json.extendsclass.com/bin/';
+  const KEY = 'fs_petition_v1';
+  const GOAL = 300;
+
+  var S = { id: null, sigs: [], online: false };
+
+  function load(){
+    try{
+      var raw = localStorage.getItem(KEY);
+      if(raw){ var o = JSON.parse(raw); S.sigs = Array.isArray(o.sigs)? o.sigs : []; S.id = o.id || null; }
+    }catch(e){}
+  }
+  function save(){ try{ localStorage.setItem(KEY, JSON.stringify({ id:S.id, sigs:S.sigs })); }catch(e){} }
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+  function norm(s){ return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/\s+/g,' ').trim(); }
+  function fkey(r){ return norm(r.n)+'|'+norm(r.c); }
+
+  function merge(a,b){
+    var seen = {}, out = [];
+    a.concat(b).forEach(function(r){
+      if(!r || !r.n) return;
+      var k = fkey(r);
+      if(seen[k]) return;
+      seen[k] = 1; out.push(r);
+    });
+    out.sort(function(x,y){ return new Date(x.t||0) - new Date(y.t||0); });
+    return out;
+  }
+
+  function baseUrl(){ return location.origin + location.pathname; }
+
+  function pull(){
+    if(!S.id){ S.online = false; return Promise.resolve(false); }
+    return fetch(API + encodeURIComponent(S.id), { cache:'no-store' }).then(function(r){
+      if(!r.ok) throw new Error('http ' + r.status);
+      return r.json();
+    }).then(function(d){
+      var arr = Array.isArray(d) ? d : (d && Array.isArray(d.sig) ? d.sig : []);
+      S.sigs = merge(S.sigs, arr);
+      S.online = true; save(); return true;
+    }).catch(function(){ S.online = false; return false; });
+  }
+
+  function push(){
+    if(!S.id) return Promise.resolve(false);
+    return fetch(API + encodeURIComponent(S.id), {
+      method:'PUT',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({ sig: S.sigs })
+    }).then(function(r){ S.online = r.ok; return r.ok; })
+      .catch(function(){ S.online = false; return false; });
+  }
+
+  function renderCounter(){
+    var n = S.sigs.length;
+    document.getElementById('count').textContent = n;
+    var pct = Math.min(100, Math.round(n / GOAL * 100));
+    document.getElementById('prog').style.width = pct + '%';
+    document.getElementById('pct').textContent = pct + ' % de ' + GOAL;
+    document.getElementById('folio').textContent = ('00' + n).slice(-3);
+    var c = document.getElementById('conn');
+    c.innerHTML = S.id
+      ? (S.online ? '<span class="dot"></span>registro en línea' : '<span class="dot off"></span>sin conexión al registro')
+      : '<span class="dot off"></span>registro local';
+  }
+
+  function renderList(){
+    var ul = document.getElementById('list');
+    if(!S.sigs.length){
+      ul.innerHTML = '<li class="empty" style="display:block;border:none">Aún no obra firma alguna en el presente expediente.</li>';
+      return;
+    }
+    ul.innerHTML = S.sigs.map(function(r,i){
+      var d = r.t ? new Date(r.t) : null;
+      var fecha = d && !isNaN(d) ? d.toLocaleDateString('es-PE',{day:'2-digit',month:'2-digit',year:'numeric'}) : '';
+      return '<li><div class="num">' + ('00' + (i+1)).slice(-3) + '</div><div class="who">'
+        + '<strong>' + esc(r.n) + '</strong>'
+        + '<div class="meta">' + esc(r.c) + ' · ' + esc(r.r) + (fecha ? ' · ' + fecha : '') + '</div>'
+        + (r.m ? '<p class="comment">' + esc(r.m) + '</p>' : '')
+        + '</div></li>';
+    }).join('');
+  }
+
+  function renderBanner(){
+    var b = document.getElementById('banner');
+    if(S.id){ b.innerHTML = ''; return; }
+    b.innerHTML = '<div class="banner"><b>Aviso</b>Esta página se ha abierto sin identificador de expediente, de modo que las firmas quedan sólo en este dispositivo. Solicite el enlace oficial a la organización.</div>';
+  }
+
+  function renderForm(){
+    var z = document.getElementById('formZone');
+    if(new Date() > new Date('2026-11-20T23:59:00-05:00')){
+      z.innerHTML = '<p style="text-align:left;font-size:13.5px"><b>Plazo cerrado.</b> El registro de firmas concluyó el 20 de noviembre de 2026 a las 23:59 horas.</p>';
+      return;
+    }
+    var mine = localStorage.getItem(KEY + '_mine');
+    if(mine){
+      var m = JSON.parse(mine);
+      z.innerHTML = '<div class="constancia"><h3>Firma registrada</h3>'
+        + '<p>Se ha incorporado su adhesión al expediente con el número correlativo <b>' + esc(m.num) + '</b>.</p>'
+        + '<p>Constancia: <code>' + esc(m.hash) + '</code></p>'
+        + '<p style="color:#5f6874;font-size:12px">Conserve esta referencia. Para firmar con otro nombre en este dispositivo, pulse el botón inferior.</p>'
+        + '<div style="margin-top:12px"><button class="btn ghost sm" id="again">Registrar otra firma</button></div></div>';
+      document.getElementById('again').onclick = function(){ localStorage.removeItem(KEY + '_mine'); renderForm(); };
+      return;
+    }
+    z.innerHTML =
+      '<div class="grid">'
+      + '<div class="field"><label for="fN">Nombre completo</label><input id="fN" autocomplete="name" placeholder="Nombres y apellidos"></div>'
+      + '<div class="field"><label for="fC">Grado y sección</label><input id="fC" placeholder="p. ej. 4.º A"></div>'
+      + '</div>'
+      + '<div class="grid">'
+      + '<div class="field"><label for="fR">Condición del firmante</label><select id="fR">'
+      + '<option>Estudiante</option><option>Padre o madre de familia</option><option>Apoderado</option><option>Docente</option><option>Exalumno</option><option>Otro</option>'
+      + '</select></div>'
+      + '<div class="field"><label for="fE">Correo electrónico (opcional)</label><input id="fE" type="email" placeholder="no se publica"></div>'
+      + '</div>'
+      + '<div class="field"><label for="fM">Comentario (opcional, máx. 280 caracteres)</label><textarea id="fM" maxlength="280" placeholder="Motivo personal de la adhesión"></textarea></div>'
+      + '<label class="check"><input type="checkbox" id="fA"><span>Declaro que los datos consignados son veraces y que adhiero al contenido íntegro de la presente petición.</span></label>'
+      + '<button class="btn" id="btnSign">Suscribir la petición</button>'
+      + '<div class="err" id="err"></div>';
+    document.getElementById('btnSign').onclick = sign;
+  }
+
+  function render(){
+    renderCounter(); renderList(); renderBanner(); renderForm();
+    document.getElementById('upd').textContent = new Date().toLocaleString('es-PE');
+  }
+
+  function sign(){
+    var n = document.getElementById('fN').value.trim();
+    var c = document.getElementById('fC').value.trim();
+    var r = document.getElementById('fR').value;
+    var m = document.getElementById('fM').value.trim();
+    var a = document.getElementById('fA').checked;
+    var err = document.getElementById('err');
+    err.textContent = '';
+
+    if(n.length < 5 || n.indexOf(' ') < 0){ err.textContent = 'Consigne nombre y apellido completos.'; return; }
+    if(!c){ err.textContent = 'Consigne grado y sección.'; return; }
+    if(!a){ err.textContent = 'Debe marcar la declaración para suscribir.'; return; }
+
+    var rec = { n:n, c:c, r:r, m:m, t:new Date().toISOString() };
+    for(var i=0;i<S.sigs.length;i++){
+      if(fkey(S.sigs[i]) === fkey(rec)){ err.textContent = 'Ya obra una firma con ese nombre en el mismo grado y sección.'; return; }
+    }
+
+    var btn = document.getElementById('btnSign');
+    btn.disabled = true; btn.textContent = 'Registrando…';
+
+    var chain = S.id ? pull() : Promise.resolve();
+    chain.then(function(){
+      S.sigs = merge(S.sigs, [rec]);
+      save();
+      return S.id ? push() : null;
+    }).then(function(){
+      var idx = 0;
+      for(var j=0;j<S.sigs.length;j++){ if(fkey(S.sigs[j]) === fkey(rec)) idx = j; }
+      var hash = 'FS-' + new Date().getFullYear() + '-' + Math.random().toString(36).slice(2,8).toUpperCase();
+      localStorage.setItem(KEY + '_mine', JSON.stringify({ num: ('00' + (idx+1)).slice(-3), hash: hash }));
+      render();
+    });
+  }
+
+  function adminMsg(t){ document.getElementById('adminMsg').textContent = t; }
+  function refreshShare(){
+    document.getElementById('shareUrl').value = S.id ? baseUrl() + '?p=' + encodeURIComponent(S.id) : baseUrl();
+  }
+
+  function initAdmin(){
+    var box = document.getElementById('admin');
+    if(box.dataset.on) return;
+    box.dataset.on = '1';
+    box.style.display = 'block';
+    document.getElementById('inId').value = S.id || '';
+    refreshShare();
+
+    document.getElementById('btnSave').onclick = function(){
+      var v = document.getElementById('inId').value.trim();
+      var id = v.indexOf('/') >= 0 ? v.split('/').filter(Boolean).pop() : v;
+      if(!id){ adminMsg('Indique un identificador.'); return; }
+      S.id = id; save(); adminMsg('Identificador guardado.');
+      pull().then(function(){ render(); refreshShare(); });
+    };
+
+    document.getElementById('btnCreate').onclick = function(){
+      var k = document.getElementById('inKey').value.trim();
+      if(!k){ adminMsg('Para crear un expediente se requiere la clave de API gratuita del servicio.'); return; }
+      adminMsg('Creando…');
+      fetch(API, {
+        method:'POST',
+        headers:{'Content-Type':'application/json','Api-key':k},
+        body: JSON.stringify({ sig: S.sigs })
+      }).then(function(r){ return r.json(); }).then(function(d){
+        if(!d.id) throw new Error(d.message || 'error');
+        S.id = d.id; save();
+        adminMsg('Expediente creado. Comparta el enlace inferior.');
+        return pull();
+      }).then(function(){ render(); refreshShare(); })
+        .catch(function(e){ adminMsg('No se pudo crear: ' + e.message); });
+    };
+
+    document.getElementById('btnSync').onclick = function(){
+      pull().then(function(){ render(); refreshShare(); adminMsg(S.online ? 'Sincronizado.' : 'Sin conexión al registro.'); });
+    };
+
+    document.getElementById('btnCopy').onclick = function(){
+      var i = document.getElementById('shareUrl');
+      i.select();
+      try{
+        navigator.clipboard.writeText(i.value).then(function(){ adminMsg('Enlace copiado.'); })
+          .catch(function(){ document.execCommand('copy'); adminMsg('Enlace copiado.'); });
+      }catch(e){ document.execCommand('copy'); adminMsg('Enlace copiado.'); }
+    };
+
+    document.getElementById('btnCsv').onclick = function(){
+      var rows = [['N.º','Nombre','Grado y sección','Condición','Comentario','Fecha']];
+      S.sigs.forEach(function(r,i){ rows.push([i+1, r.n, r.c, r.r, r.m||'', r.t||'']); });
+      var csv = rows.map(function(row){
+        return row.map(function(v){ return '"' + String(v).replace(/"/g,'""') + '"'; }).join(';');
+      }).join('\r\n');
+      var a = document.createElement('a');
+      a.href = 'data:text/csv;charset=utf-8,\uFEFF' + encodeURIComponent(csv);
+      a.download = 'firmas_futura_day.csv';
+      a.click();
+      adminMsg('CSV generado (' + S.sigs.length + ' registros).');
+    };
+
+    document.getElementById('btnImport').onclick = function(){
+      try{
+        var arr = JSON.parse(document.getElementById('inJson').value);
+        if(!Array.isArray(arr)) throw new Error('se esperaba una lista');
+        S.sigs = merge(S.sigs, arr); save(); render();
+        adminMsg('Importadas. Total: ' + S.sigs.length);
+        if(S.id) push();
+      }catch(e){ adminMsg('JSON no válido: ' + e.message); }
+    };
+
+    document.getElementById('btnBackup').onclick = function(){
+      document.getElementById('inJson').value = JSON.stringify(S.sigs, null, 1);
+    };
+  }
+
+  load();
+  var q = new URLSearchParams(location.search);
+  if(q.get('p')) S.id = q.get('p');
+
+  render();
+  if(location.hash === '#admin' || q.has('admin')) initAdmin();
+
+  document.getElementById('adminLink').onclick = function(){ initAdmin(); };
+  document.getElementById('printLink').onclick = function(e){ e.preventDefault(); window.print(); };
+
+  if(S.id){
+    pull().then(function(){
+      render();
+      if(S.online){ setInterval(function(){ pull().then(function(ok){ if(ok) render(); }); }, 25000); }
+    });
+  }
+})();
+</script>
+</body>
+</html>
